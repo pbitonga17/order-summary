@@ -57,7 +57,7 @@ body {
     grid-template-columns: 5fr 1fr;
     align-items: center;
     max-width: 100%;
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 10px;
 }
 .price {
@@ -66,10 +66,10 @@ body {
     gap: 1.5rem;
 }
 .price h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .price p {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: hsl(224, 23%, 55%)
 }
 .change-link a {
@@ -87,7 +87,7 @@ body {
     padding: 1.5rem;
     text-align: center;
     border-radius: 10px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     box-shadow: 1px 10px 20px 5px hsl(225, 28%, 78%)
 }
 .payment-link a:hover {
@@ -95,9 +95,8 @@ body {
 }
 .cancel-link a {
     color: grey;
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
     text-decoration: none;
-    display: block;
-    padding: 1.5rem;
-    text-align: center;
-    font-size: 1.2rem;
 }
