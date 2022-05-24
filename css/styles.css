@@ -73,7 +73,7 @@ body {
     color: hsl(224, 23%, 55%)
 }
 .change-link a {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: hsl(245, 75%, 52%);
 }
 .change-link a:hover {
