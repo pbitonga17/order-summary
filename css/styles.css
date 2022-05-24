@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+/** IMAGE **/
+.hero1 {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: fill;
+    border-radius: 15px 15px 0 0;
+}
+/** IMAGE -END **/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    background-color: white;
+    max-width: 50rem;
+    border-radius: 15px;
+}
+.text {
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+.heading {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.heading h1 {
+    font-size: 3rem;
+}
+.heading p {
+    font-size: 2rem;
+}
+.annual-plan {
+    background-color: hsl(225, 100%, 98%);
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+    gap: 1rem;
+    max-width: 100%;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.price {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+.price h2 {
+    font-size: 1.8rem;
+}
+.price p {
+    font-size: 1.5rem;
+}
+.change-link a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.payment-link a {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 1.5rem;
+}
+.cancel-link a {
+    color: grey;
+    text-decoration: none;
+    display: block;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 1.5rem;
+}
