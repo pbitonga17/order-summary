@@ -29,35 +29,35 @@ body {
     justify-content: center;
     align-self: center;
     background-color: white;
-    max-width: 50rem;
+    width: 35rem;
     border-radius: 15px;
 }
 .text {
-    padding: 3rem 5rem;
+    padding: 3rem 4rem;
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 2rem;
 }
 .heading {
     text-align: center;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
 }
 .heading h1 {
-    font-size: 3rem;
+    font-size: 2.6rem;
 }
 .heading p {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    color: hsl(224, 23%, 55%);
 }
 .annual-plan {
     background-color: hsl(225, 100%, 98%);
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 5fr 1fr;
     align-items: center;
-    gap: 1rem;
     max-width: 100%;
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 10px;
 }
 .price {
@@ -66,14 +66,18 @@ body {
     gap: 1.5rem;
 }
 .price h2 {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
 }
 .price p {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    color: hsl(224, 23%, 55%)
 }
 .change-link a {
+    font-size: 1rem;
+    color: hsl(245, 75%, 52%);
+}
+.change-link a:hover {
     text-decoration: none;
-    font-size: 1.5rem;
 }
 .payment-link a {
     background-color: hsl(245, 75%, 52%);
@@ -82,8 +86,12 @@ body {
     display: block;
     padding: 1.5rem;
     text-align: center;
-    border-radius: 12px;
-    font-size: 1.5rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    box-shadow: 1px 10px 20px 5px hsl(225, 28%, 78%)
+}
+.payment-link a:hover {
+    opacity: 0.8;
 }
 .cancel-link a {
     color: grey;
@@ -91,6 +99,5 @@ body {
     display: block;
     padding: 1.5rem;
     text-align: center;
-    border-radius: 12px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
